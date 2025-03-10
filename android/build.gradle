@@ -27,6 +27,9 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 30
 
+
+    namespace 'com.ixsans.text_to_speech'
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
